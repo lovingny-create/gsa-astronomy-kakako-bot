@@ -52,6 +52,11 @@ class BotTests(unittest.TestCase):
         self.assertIn("저장했습니다", self.text_from(response))
         self.assertTrue(csv_path.exists())
 
+    def test_maxim_target_centering_goes_to_troubleshooting(self):
+        bot = self.make_bot()
+        response = bot.handle_skill(self.request("맥심 DL에서 대상을 맞췄는데 중앙에 와있지 않아요"))
+        self.assertIn("MaximDL", self.text_from(response))
+
 
 if __name__ == "__main__":
     unittest.main()

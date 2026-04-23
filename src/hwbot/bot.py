@@ -49,7 +49,7 @@ class ObservationBot:
             return self.record_response(utterance, user_id)
         if contains_any(text, ["관측 가능", "오늘", "날씨", "구름", "습도", "바람"]):
             return self.observing_condition_response()
-        if contains_any(text, ["장비", "망원경", "초점", "추적", "정렬", "카메라", "안보", "안 보여", "흐릿", "길게"]):
+        if contains_any(text, ["장비", "망원경", "초점", "추적", "정렬", "카메라", "안보", "안 보여", "흐릿", "길게", "maxim", "maximdl", "맥심", "ccd", "마운트", "중앙", "안와", "안 와", "안맞", "안 맞"]):
             return self.troubleshooting_response(text)
         if contains_any(text, ["대상", "추천", "뭘", "무엇", "성운", "성단", "별", "달"]):
             return self.target_response()
