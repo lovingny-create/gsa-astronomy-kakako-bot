@@ -1,0 +1,6 @@
+.test_tmp/
+data/observation_logs.csv
+data/fits_observation_index.csv
+data/config.local.json
+__pycache__/
+*.pyc

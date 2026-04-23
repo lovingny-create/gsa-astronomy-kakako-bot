@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: gsa-astronomy-kakao-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: HWBOT_CONFIG
+        value: data/config.render.json

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "달",
+    "season": "all",
+    "difficulty": "매우 쉬움",
+    "tip": "초보자는 낮은 배율로 시작하고, 경계선 근처의 크레이터를 보세요."
+  },
+  {
+    "name": "쌍성 알비레오",
+    "season": "summer",
+    "difficulty": "쉬움",
+    "tip": "색 대비가 좋아 학생 관측 대상에 적합합니다."
+  },
+  {
+    "name": "헤라클레스 구상성단 M13",
+    "season": "summer",
+    "difficulty": "보통",
+    "tip": "하늘이 어두울수록 좋고, 낮은 배율로 먼저 찾으세요."
+  },
+  {
+    "name": "안드로메다은하 M31",
+    "season": "fall",
+    "difficulty": "쉬움",
+    "tip": "쌍안경이나 낮은 배율에서 더 넓게 보입니다."
+  },
+  {
+    "name": "플레이아데스성단 M45",
+    "season": "winter",
+    "difficulty": "쉬움",
+    "tip": "망원경보다 쌍안경에서 아름답게 보일 때가 많습니다."
+  },
+  {
+    "name": "오리온성운 M42",
+    "season": "winter",
+    "difficulty": "쉬움",
+    "tip": "겨울철 대표 대상이며 낮은 배율로 성운의 밝은 중심부를 확인하세요."
+  },
+  {
+    "name": "프레세페성단 M44",
+    "season": "spring",
+    "difficulty": "쉬움",
+    "tip": "쌍안경이나 낮은 배율 관측에 좋습니다."
+  },
+  {
+    "name": "레굴루스",
+    "season": "spring",
+    "difficulty": "쉬움",
+    "tip": "별자리 찾기 연습과 파인더 정렬에 좋습니다."
+  }
+]
+

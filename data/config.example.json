@@ -1,0 +1,51 @@
+{
+  "school": {
+    "name": "학교 이름을 입력하세요",
+    "observing_site": "운동장 또는 옥상",
+    "latitude": 37.5665,
+    "longitude": 126.978,
+    "timezone": "Asia/Seoul"
+  },
+  "channel": {
+    "name": "관측 도우미 봇"
+  },
+  "weather": {
+    "enable_live_weather": false,
+    "provider": "open-meteo"
+  },
+  "safety": {
+    "emergency_keywords": [
+      "태양",
+      "눈",
+      "화상",
+      "낙상",
+      "감전",
+      "전기",
+      "파손",
+      "비상",
+      "다침"
+    ],
+    "escalation_message": "다친 사람, 전기 문제, 장비 파손, 태양 관측 관련 상황이면 즉시 담당 교사에게 알리세요."
+  },
+  "recording": {
+    "mode": "csv",
+    "csv_path": "data/observation_logs.csv"
+  },
+  "equipment": {
+    "telescopes": [
+      "예: 80mm 굴절망원경"
+    ],
+    "mounts": [
+      "예: 경위대",
+      "예: 적도의"
+    ],
+    "cameras": [
+      "예: 스마트폰 어댑터"
+    ],
+    "eyepieces": [
+      "예: 25mm",
+      "예: 10mm"
+    ]
+  }
+}
+

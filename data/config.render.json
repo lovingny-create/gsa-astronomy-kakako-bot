@@ -1,0 +1,92 @@
+{
+  "school": {
+    "name": "광주과학고등학교",
+    "observing_site": "광주과학고등학교 천문 관측 시설",
+    "address": "광주광역시 북구 첨단과기로 215",
+    "latitude": 35.22735486354,
+    "longitude": 126.84868380671,
+    "timezone": "Asia/Seoul",
+    "users": "과학고등학교 1-3학년, 교사"
+  },
+  "channel": {
+    "name": "광곽현웅봇"
+  },
+  "weather": {
+    "enable_live_weather": false,
+    "provider": "open-meteo"
+  },
+  "safety": {
+    "emergency_keywords": [
+      "태양",
+      "눈",
+      "화상",
+      "낙상",
+      "감전",
+      "전기",
+      "파손",
+      "비상",
+      "다침",
+      "돔",
+      "끼임",
+      "충돌",
+      "홈센서",
+      "마운트 이상"
+    ],
+    "escalation_message": "태양 관측, 눈/전기/돔 개폐/마운트 충돌/장비 파손/학생 부상 관련 상황이면 즉시 담당 교사에게 알리세요."
+  },
+  "recording": {
+    "mode": "fits_index",
+    "csv_path": "data/fits_observation_index.csv",
+    "fits_storage": "관측 PC 또는 학교 지정 저장소",
+    "persistence_note": "Render Free에서는 로컬 CSV가 재시작 시 사라질 수 있습니다. 실제 장기 기록은 Google Sheets 또는 별도 DB 연동을 권장합니다.",
+    "required_fields": [
+      "fits",
+      "대상",
+      "필터",
+      "노출",
+      "메모"
+    ]
+  },
+  "deployment": {
+    "mode": "render-free"
+  },
+  "equipment": {
+    "telescope": {
+      "model": "PlaneWave CDK14",
+      "aperture_mm": 356,
+      "focal_length_mm": 2563,
+      "f_ratio": 7.2,
+      "notes": "14인치 Planewave CDK 망원경"
+    },
+    "ccd": {
+      "model": "STX-16803",
+      "pixel_size_microns": 9,
+      "resolution": "4096x4096",
+      "total_pixels": "16MP",
+      "capture_software": "MaximDL"
+    },
+    "mount": {
+      "model": "MC700GE-2",
+      "controller": "Hubo-i controller",
+      "features": [
+        "기계적 원점 홈센서",
+        "GPS 수신기",
+        "원격 마운트 제어"
+      ]
+    },
+    "filters": [
+      "U",
+      "B",
+      "V",
+      "R",
+      "I"
+    ],
+    "observatory_control": [
+      "원격 돔 개폐",
+      "마운트 제어",
+      "망원경 초점 조절",
+      "CCD 사진 촬영"
+    ]
+  }
+}
+
